@@ -45,18 +45,39 @@ br {
     margin-top: 10px;
     padding-right: 250px;
     padding-left: 30px;
-    padding-top: 60px;
     border-radius: 10px;
-    margin-right: 7px;
     padding-top: 20px;
     border-style: solid;
     border-width:1px;
     border-color: black;
     box-shadow: -5px 3px 10px  #ccc5c5;
     margin-bottom: 50px;
+    padding-bottom: 100px;
 }
 
+.body_container_small{
+    background-image: url("./images/background-img.jpg");
+    background-size: cover;
+    font-family: 'Acme', sans-serif;
+    text-align: justify;
+    margin-top: 10px;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 10px;
+    padding-top: 20px;
+    border-style: solid;
+    border-width:1px;
+    border-color: black;
+    box-shadow: -5px 3px 10px  #ccc5c5;
+    
+    
+}
 .body_style{
+    font-size: 25px;
+    margin-top: 50px;
+    
+}
+.body_style_small{
     font-size: 20px;
     margin-top: 50px;
     
@@ -65,7 +86,8 @@ h3{
     font-family: 'Acme', sans-serif;
 }
 .instagram_container{
-    margin-top: 10px;
+    margin-top: 20px;
     box-shadow: -3px 3px 5px  #dbd5d5;
     margin-bottom: 50px;
+   
 }
